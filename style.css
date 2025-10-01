@@ -3,6 +3,7 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    background-color: antiquewhite;
 }
 
 #container {
@@ -25,5 +26,5 @@ html, body {
 .square {
     flex: 1 0 calc(100% / var(--grid-size));        /*Caltulates the size of the square: 1 = fulfill the blank space // 0 = prevents of being shrink due the lack of space*/
     height: calc(100% / var(--grid-size));          /*Calculates the number of squares per height*/
-    border: 1px solid #fabc;                      /*Thickness of the border and it's colour*/
+    border: 1px solid black;                      /*Thickness of the border and it's colour OBS: fabc is a beautiful colour*/
 }
