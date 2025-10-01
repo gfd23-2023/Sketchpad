@@ -6,6 +6,8 @@ html, body {
     background-color: antiquewhite;
 }
 
+/*GRID --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 #container {
     display: flex;      /*The itens are set side by side not one below another*/
     flex-wrap: wrap;    /*Makes that if there is no space in the container, the following itens will go to the next line*/
@@ -28,3 +30,5 @@ html, body {
     height: calc(100% / var(--grid-size));          /*Calculates the number of squares per height*/
     border: 1px solid black;                      /*Thickness of the border and it's colour OBS: fabc is a beautiful colour*/
 }
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
